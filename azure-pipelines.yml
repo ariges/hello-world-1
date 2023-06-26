@@ -10,7 +10,7 @@ pool:
   name: default
   demands:
     - maven
-    - Agent.Version -gtVersion Apache Maven 4.0.0-alpha-5
+    -  Agent.Version -gtVersion 2.163.1
 
 steps:
 - task: Maven@3
